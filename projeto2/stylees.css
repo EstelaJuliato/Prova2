@@ -1,0 +1,189 @@
+:rooot {
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 1280px;
+  height: 700px;
+  background-color: rgb(234, 244, 249);
+
+
+}
+
+.logo-nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.logo-nav>img {
+  width: 28px;
+
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.menu>li {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-style: double;
+  border-radius: 99999px;
+  margin-top: 9px;
+}
+
+.px {
+  padding: 0 20px;
+}
+
+.py {
+  padding: 10px 0;
+}
+
+.content-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  outline: none;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  padding: 7px 0;
+  padding-left: 5px;
+  text-decoration: color black;
+}
+
+.barraBusca>img {
+  width: 12px;
+  padding: 0px;
+  height: 12px;
+  justify-items: center;
+  margin-left: 15px;
+  margin-top: 9px;
+  cursor: pointer;
+}
+
+.barraBusca {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  background-color: rgb(144, 236, 248);
+  border-radius: 99999px;
+  margin: 3px;
+  font: color black;
+}
+
+
+.button {
+  border-radius: 99999px;
+  text-align: center;
+  padding: 2px;
+  border: none;
+  margin-right: 13px;
+  background-color: rgb(144, 236, 248);
+  cursor: pointer;
+}
+
+/* BODY */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 12px;
+  justify-content: space-around;
+  padding: 0 100PX 0 100px;
+}
+
+.img1 {
+  width: 500px;
+  height: 175px;
+  border-radius: 99999px;
+}
+
+.img2 {
+  width: 500px;
+  height: 175px;
+  border-radius: 99999px;
+}
+
+.img4 {
+  width: 500px;
+  height: 175px;
+  border-radius: 99999px;
+}
+
+.box {
+  width: 500px;
+  height: 175px;
+  border-radius: 99999px;
+  background-color: rgb(144, 236, 248);
+  border-style: dotted;
+}
+
+.hhh {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 2px 60px;
+
+}
+
+.tit {
+  justify-content: space-between;
+}
+
+.subt {
+  padding: 2px 40px 8px 60px;
+  font-size: 15px;
+}
+
+.button2 {
+  border-radius: 99999px;
+  text-align: center;
+  padding: 20px 5px 20px 5px;
+  border: solid rgb(0, 5, 7);
+  margin-right: 13px;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  color: white;  
+}
+
+/* RODAPÈ */
+
+.rodape {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.rodape2 {
+  font-size: 15px;
+}
